@@ -23,7 +23,7 @@
         app:layout_constraintVertical_bias="0.61">
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/editTextTextUserName"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginTop="10dp"
@@ -32,13 +32,13 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textPersonName"
-            android:text="User Name"
+            android:hint="User Name"
             android:textColor="#ffffff"
             android:textColorHint="#ffffff"
             android:textSize="14sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/editTextTextPassword"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginTop="10dp"
@@ -46,8 +46,8 @@
             android:background="@drawable/edittext_background"
             android:ems="10"
             android:gravity="center"
-            android:inputType="textPersonName"
-            android:text="Password"
+            android:inputType="textPassword"
+            android:hint="Password"
             android:textColor="#ffffff"
             android:textColorHint="#ffffff"
             android:textSize="14sp" />
